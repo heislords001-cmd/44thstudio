@@ -16,6 +16,36 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "d-pikano-global-resources",
+    name: "D-Pikano Global Resources Ltd",
+    industry: "Mechanical Engineering & Industrial Services",
+    location: "Nigeria",
+    url: "https://d-pikano.com",
+    image: "/projects/d-pikano.png",
+    summary:
+      "A mechanical services contractor's site, hand-coded to read as credible to factories, hospitals, and government clients.",
+    overview:
+      "D-Pikano needed a site that could win trust from serious institutional clients: factories, hospitals, malls, and government facilities hiring for fire fighting systems, HVAC, lift installation, and industrial plumbing. I built this one as a fully static, hand-coded HTML, CSS, and Tailwind site: no template, no page builder. Every section, from the blueprint-grid background to the recreated SVG shield logo to the diagonal brand accent, was written and positioned by hand.",
+    challenge:
+      "The company had years of real completed projects but no organized photography to prove it, a logo that only existed as a low-res image, and needed a working quote-request pipeline rather than a static contact page. On mobile, the project grid was overflowing horizontally, and the quote page's text was washing out against its background.",
+    solution:
+      "I extracted, cleaned, and organized real project photography across eight completed jobs (malls, hotels, laboratories, a brine plant, food processing facilities) so every claim on the site is backed by actual work. I rebuilt the DPG shield mark as a crisp SVG logo, fixed the mobile overflow bug with a targeted min-width fix on the grid and flex containers, hardcoded a solid dark navy background on the quote page to fix contrast, and wired a live quote-request form to a real form backend so leads actually reach the business.",
+    role: [
+      "Hand-coded the entire site in HTML, CSS, and Tailwind CSS",
+      "Extracted and organized real project photography across eight jobs",
+      "Recreated the brand's shield logo as a clean SVG",
+      "Debugged mobile layout overflow and low-contrast text bugs",
+      "Wired a live quote-request form to a working form backend",
+    ],
+    tech: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Formspree", "Responsive Debugging"],
+    features: [
+      "Live quote-request form connected to a real backend",
+      "Real project photography across eight completed jobs",
+      "Custom SVG brand mark and blueprint-grid visual language",
+      "Fully responsive layout, debugged down to small mobile screens",
+    ],
+  },
+  {
     slug: "walkers-place",
     name: "Walker's Place",
     industry: "Bar & Restaurant",
@@ -187,36 +217,6 @@ export const projects: Project[] = [
       "Clear priority order across emergency, financing, and reviews",
       "Google rating and decades-in-business trust markers",
       "Sticky call-to-action across mobile and desktop",
-    ],
-  },
-  {
-    slug: "d-pikano-global-resources",
-    name: "D-Pikano Global Resources Ltd",
-    industry: "Mechanical Engineering & Industrial Services",
-    location: "Nigeria",
-    url: "https://d-pikanoglobalresources.netlify.app/",
-    image: "/projects/d-pikano.png",
-    summary:
-      "A mechanical services contractor's site, hand-coded to read as credible to factories, hospitals, and government clients.",
-    overview:
-      "D-Pikano needed a site that could win trust from serious institutional clients: factories, hospitals, malls, and government facilities hiring for fire fighting systems, HVAC, lift installation, and industrial plumbing. I built this one as a fully static, hand-coded HTML, CSS, and Tailwind site: no template, no page builder. Every section, from the blueprint-grid background to the recreated SVG shield logo to the diagonal brand accent, was written and positioned by hand.",
-    challenge:
-      "The company had years of real completed projects but no organized photography to prove it, a logo that only existed as a low-res image, and needed a working quote-request pipeline rather than a static contact page. On mobile, the project grid was overflowing horizontally, and the quote page's text was washing out against its background.",
-    solution:
-      "I extracted, cleaned, and organized real project photography across eight completed jobs (malls, hotels, laboratories, a brine plant, food processing facilities) so every claim on the site is backed by actual work. I rebuilt the DPG shield mark as a crisp SVG logo, fixed the mobile overflow bug with a targeted min-width fix on the grid and flex containers, hardcoded a solid dark navy background on the quote page to fix contrast, and wired a live quote-request form to a real form backend so leads actually reach the business.",
-    role: [
-      "Hand-coded the entire site in HTML, CSS, and Tailwind CSS",
-      "Extracted and organized real project photography across eight jobs",
-      "Recreated the brand's shield logo as a clean SVG",
-      "Debugged mobile layout overflow and low-contrast text bugs",
-      "Wired a live quote-request form to a working form backend",
-    ],
-    tech: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Formspree", "Responsive Debugging"],
-    features: [
-      "Live quote-request form connected to a real backend",
-      "Real project photography across eight completed jobs",
-      "Custom SVG brand mark and blueprint-grid visual language",
-      "Fully responsive layout, debugged down to small mobile screens",
     ],
   },
 ];
